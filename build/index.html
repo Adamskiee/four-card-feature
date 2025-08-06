@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body class="font-poppins flex items-center justify-center">
+    <main
+      class="w-full max-w-80 min-desktop:max-w-6xl py-10 px-2 text-grey-500"
+    >
+      <header
+        class="flex flex-col text-center mb-12 gap-4 min-desktop:w-1/2 min-desktop:px-5 mx-auto"
+      >
+        <h1 class="text-2xl min-desktop:text-4xl font-extralight">
+          Reliable, efficient delivery
+          <strong class="font-semibold block">Powered by Technology</strong>
+        </h1>
+        <p class="text-[0.938rem]">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+      <section
+        class="grid grid-cols-1 gap-8 min-desktop:grid-cols-3 min-desktop:grid-rows-2 min-desktop:grid"
+      >
+        <div class="card border-t-cyan row-span-2">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+          <img src="./images/icon-supervisor.svg" alt="" />
+        </div>
+        <div class="card border-t-red">
+          <h2>Team Builder</h2>
+          <p>
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <img src="./images/icon-team-builder.svg" alt="" />
+        </div>
+        <div class="card border-t-orange min-desktop:order-2">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <img src="./images/icon-karma.svg" alt="" />
+        </div>
+        <div class="card border-t-blue row-span-2">
+          <h2>Calculator</h2>
+          <p>
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img src="./images/icon-calculator.svg" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
