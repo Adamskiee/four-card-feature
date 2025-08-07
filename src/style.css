@@ -11,10 +11,11 @@
     --grey-500: hsl(234, 12%, 34%);
     --grey-400: hsl(212, 6%, 44%);
     --white: hsl(0, 0%, 100%);
+    --grey-100: hsl(0, 0%, 90%);
 }
 
 .card {
-    @apply flex flex-col gap-1 px-7 py-6 rounded-t-[2.5%] border-t-[0.369rem] shadow-xl h-auto my-auto;
+    @apply flex flex-col gap-1 px-7 py-6 rounded-t-[2.5%] border-t-[0.369rem] shadow-xl h-auto my-auto bg-white;
 }
 .card > h2 {
     @apply font-semibold text-xl;

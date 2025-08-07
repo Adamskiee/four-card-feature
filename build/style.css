@@ -617,6 +617,10 @@ video {
   border-top-color: var(--red);
 }
 
+.bg-grey-100 {
+  background-color: var(--grey-100);
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -664,6 +668,7 @@ video {
   --grey-500: hsl(234, 12%, 34%);
   --grey-400: hsl(212, 6%, 44%);
   --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(0, 0%, 90%);
 }
 
 .card {
@@ -676,6 +681,7 @@ video {
   border-top-left-radius: 2.5%;
   border-top-right-radius: 2.5%;
   border-top-width: 0.369rem;
+  background-color: var(--white);
   padding-left: 1.75rem;
   padding-right: 1.75rem;
   padding-top: 1.5rem;

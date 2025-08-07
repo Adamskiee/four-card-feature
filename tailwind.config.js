@@ -14,6 +14,7 @@ module.exports = {
         'cyan': 'var(--cyan)',
         'orange': 'var(--orange)',
         'blue': 'var(--blue)',
+        'grey-100': 'var(--grey-100)',
         'grey-500': 'var(--grey-500)',
         'grey-400': 'var(--grey-400)',
         'white': 'var(--white)',
