@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Adamskiee/four-card-feature)
-- Live Site URL: [Website](https://adamskiee.github.io/four-card-feature/)
+- Solution URL: [Github](https://github.com/adamskiee-frontendmentor-projects/four-card-feature)
+- Live Site URL: [Website](https://adamskiee-frontendmentor-projects.github.io/four-card-feature/)
 
 ## My process
 
